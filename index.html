@@ -1,40 +1,40 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roji Regmi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <h1>Roji Regmi</h1>
-    <h2>Front-End Developer</h2>
+    <div class="flex">
+      <div class="circle"><div class="subHead">Hi I'm Roji</div></div>
+    <h1>Freelance <span>Web Designer</span>, <span>Developer </span>& <span>UX designer</span></h1>
     <p>
-      I’m Roji, and I love creating websites that provide a seamless user
-      experience. With a solid grasp of HTML, CSS, and JavaScript, I transform
-      ideas into beautiful, intuitive and functional online experiences. Let's build
-      an amazing website together!
+      I create websites that provide a seamless user
+      experience primarily using Wordpress CMS. With a solid grasp of HTML, CSS, and JavaScript, I transform
+      ideas into beautiful, intuitive and functional online experiences.
     </p>
-    <hr />
-    <h3><a href="./public/song-ranking.html">Project</a></h3>
-    <p>A website for a Motorcycle company</p>
-    <img src="./Assets/Images/CrispOmega.png" alt="image showing a preview of the website" width="auto" height="200"/> 
-    <hr />
-    <a href="./about.html">About Me</a>
-    <a href="./contact.html">Contact Me</a>
+    <img src="./Assets/Images/icons8-road-closure-52.png" alt="under construction image" height="50" width="50">
+    <p class="italic"><emphasis>Website under construction<br>
+      Please come back later</emphasis></p>
+    <div class="subHead question">Questions?</div>
+    <a href="mailto:example@gmail.com?subject=Subject%20Here&body=Body%20content%20here" class="gmail-button"><button>Send me an Email</button></a>
+  </div>
+    
+    <hr>
+    <footer>
+        <small>
+          Designed & built by Roji
+        </small>
+    </footer>
   </body>
 </html>
